@@ -32,9 +32,9 @@ jobs:
         # optional - prefix to output defined in config
         dir: output
         # optional - schematic file
-        schema: 'PT.kicad_sch'
+        schema: 'Serie.kicad_sch'
         # optional - PCB design file
-        board: 'PT.kicad_pcb'
+        board: 'Serie.kicad_pcb'
         # install3D: YES 
         # cache3D: YES
     - name: upload results
