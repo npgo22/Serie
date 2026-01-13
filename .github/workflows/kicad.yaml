@@ -1,0 +1,45 @@
+name: Check DRC and upload files
+
+on:
+  release:
+    types: [published, created]
+  push:
+    paths:
+    - '**.sch'
+    - '**.kicad_pcb'
+  pull_request:
+    paths:
+      - '**.sch'
+      - '**.kicad_pcb'
+  workflow_dispatch:
+
+
+jobs:
+  board:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v5
+    # - name: Cache 3D models data
+    #   id: models-cache
+    #   uses: set-soft/cache@main
+    #   with:
+    #     path: ~/cache_3d
+    #     key: cache_3d
+    - uses: INTI-CMNB/KiBot@v2_dk9
+      with:
+        # Required - kibot config file
+        config: Serie.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: output
+        # optional - schematic file
+        schema: 'PT.kicad_sch'
+        # optional - PCB design file
+        board: 'PT.kicad_pcb'
+        # install3D: YES 
+        # cache3D: YES
+    - name: upload results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: output
+        path: output

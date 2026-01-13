@@ -1,0 +1,229 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8fdbc9dc-a02a-488d-a5a6-6a3827681e3b")
+	(paper "USLetter")
+	(title_block
+		(title "Serie Mainboard")
+		(rev "1A")
+		(company "Nolan and Kanin")
+	)
+	(lib_symbols)
+	(sheet
+		(at 88.9 137.16)
+		(size 53.34 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36969bb7-c4d7-4529-91e1-05d64cbf59b4")
+		(property "Sheetname" "Thermocouples"
+			(at 88.9 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermocouples.kicad_sch"
+			(at 88.9 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 95.25)
+		(size 66.04 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "829e685b-71c9-45db-b278-5541dac81433")
+		(property "Sheetname" "Power"
+			(at 146.05 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 146.05 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 95.25)
+		(size 46.99 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "847755dd-32cf-4fe1-a97c-3d8a2abbc8d1")
+		(property "Sheetname" "Board IO"
+			(at 214.63 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 214.63 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 133.35)
+		(size 66.04 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a718b074-1fbc-4d0f-a817-80a7e544d47c")
+		(property "Sheetname" "Driver Set 1"
+			(at 146.05 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drivers1.kicad_sch"
+			(at 146.05 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 134.62)
+		(size 46.99 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cffd479e-749a-4ba1-8c9c-9fbb80073f95")
+		(property "Sheetname" "Driver Set 2"
+			(at 215.9 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drivers2.kicad_sch"
+			(at 215.9 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

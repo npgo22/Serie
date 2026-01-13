@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "29e612aa-0717-4bf1-8269-8155200e9fea")
+	(paper "A4")
+	(title_block
+		(title "Serie Mainboard")
+		(rev "1A")
+		(company "Nolan and Kanin")
+	)
+	(lib_symbols)
+)

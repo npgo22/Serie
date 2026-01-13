@@ -1,0 +1,990 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "21561ad7-a5ff-423e-8ddd-7574d6219f51")
+	(paper "USLetter")
+	(title_block
+		(title "Serie Mainboard")
+		(rev "1A")
+		(company "Nolan and Kanin")
+	)
+	(lib_symbols
+		(symbol "Sensor_Temperature:MAX31865xTP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -11.43 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MAX31865xTP"
+				(at 10.16 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm"
+				(at 3.81 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RTD-to-Digital Converter, TQFN-20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RTD SPI Temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TQFN*1EP*5x5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX31865xTP_0_1"
+				(rectangle
+					(start -12.7 17.78)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MAX31865xTP_1_1"
+				(pin output line
+					(at -15.24 15.24 0)
+					(length 2.54)
+					(name "~{DRDY}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 20.32 270)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -17.78 90)
+					(length 2.54)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 20.32 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "BIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "REFIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "REFIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "ISENSOR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "FORCE+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "FORCE2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "RTDIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "RTDIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "FORCE-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:MAX31865xTP")
+		(at 71.12 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29c1e06d-8e9c-4bd4-a2b5-6ab23804d710")
+		(property "Reference" "U2"
+			(at 75.8033 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX31865xTP"
+			(at 75.8033 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm"
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RTD-to-Digital Converter, TQFN-20"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "f88aaf06-b339-4eab-a01e-5c84bb19fec7")
+		)
+		(pin "6"
+			(uuid "f53d6ab2-89ca-403e-9a7c-d583633bd6ec")
+		)
+		(pin "3"
+			(uuid "49522c3e-9828-4c53-96ec-2a13f8e22332")
+		)
+		(pin "11"
+			(uuid "e43bd164-b80a-43b2-ad83-6d2a2ed00bfe")
+		)
+		(pin "16"
+			(uuid "45cfb9b6-3fc6-433c-869c-5e92998edfcb")
+		)
+		(pin "15"
+			(uuid "8d2e3ccb-f1d1-4206-872b-7909ec8b1136")
+		)
+		(pin "13"
+			(uuid "77b0bc38-b733-4872-9654-33d98bc7f7c1")
+		)
+		(pin "14"
+			(uuid "76f06d13-c2c8-452b-b608-b94cc735d153")
+		)
+		(pin "21"
+			(uuid "8a83f093-faf4-44d3-8f59-73357ea23ec6")
+		)
+		(pin "20"
+			(uuid "865954af-8204-4677-8a9a-cfcc6dc3eaa9")
+		)
+		(pin "1"
+			(uuid "4e3e6fa8-9102-4bac-abe8-11ba0d028d88")
+		)
+		(pin "18"
+			(uuid "7ba9de21-513b-4aad-9e4f-5354667c3427")
+		)
+		(pin "9"
+			(uuid "ea27e3f5-c3a4-4379-a905-dbdc5e55e7d7")
+		)
+		(pin "8"
+			(uuid "a2cc6cfa-963c-468c-a85c-e02b6126508e")
+		)
+		(pin "10"
+			(uuid "2632176c-79c1-472b-b66f-4a2c0ec96bf4")
+		)
+		(pin "2"
+			(uuid "c0a832c5-9e6f-4eea-8da4-9b50950d7578")
+		)
+		(pin "12"
+			(uuid "1214b498-e594-466c-bd44-ed4675a2e3ce")
+		)
+		(pin "17"
+			(uuid "3133b2c4-e942-4da5-9b88-f37eb82b02b8")
+		)
+		(pin "5"
+			(uuid "361fb3e8-03e6-4b4f-b16b-c02aa96007fa")
+		)
+		(pin "19"
+			(uuid "db162518-ec86-4e31-8444-ab1fdbb7b60a")
+		)
+		(pin "4"
+			(uuid "a5d539a2-e050-4a19-bf7c-47093d5f3653")
+		)
+		(instances
+			(project ""
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/36969bb7-c4d7-4529-91e1-05d64cbf59b4"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:MAX31865xTP")
+		(at 60.96 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b54d272-a97e-4203-b1d1-48f6bbcd67f7")
+		(property "Reference" "U4"
+			(at 65.6433 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX31865xTP"
+			(at 65.6433 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm"
+			(at 64.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RTD-to-Digital Converter, TQFN-20"
+			(at 60.96 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9b51eb6f-6a09-4fb1-bb43-1d2f2b161852")
+		)
+		(pin "6"
+			(uuid "19baa79b-b38c-43c4-90b9-b0a2f1c27833")
+		)
+		(pin "3"
+			(uuid "c8fa2126-6697-419f-a5ef-baee9fd0bc02")
+		)
+		(pin "11"
+			(uuid "13018c7b-5cd5-4f31-ae80-d8bb6d80112a")
+		)
+		(pin "16"
+			(uuid "cfe63ae9-d266-49ea-b98e-704ab9289065")
+		)
+		(pin "15"
+			(uuid "beb3b14a-edf3-43d9-899b-8d48c1c68f6a")
+		)
+		(pin "13"
+			(uuid "a78f6054-d9af-4b3b-8458-9caa62f8b623")
+		)
+		(pin "14"
+			(uuid "4774c8a4-406b-4ac5-8ceb-4e61008d5239")
+		)
+		(pin "21"
+			(uuid "cdf9e785-13da-44a3-ae00-3b72ce4feb84")
+		)
+		(pin "20"
+			(uuid "d3da02f9-917e-4421-b4f9-9c4c5d643b95")
+		)
+		(pin "1"
+			(uuid "85739374-609d-4326-8033-14256f038f05")
+		)
+		(pin "18"
+			(uuid "52a7e3b1-b74a-4388-adca-3a1b60218940")
+		)
+		(pin "9"
+			(uuid "3b537dee-6920-4f78-b29e-6fb61369017e")
+		)
+		(pin "8"
+			(uuid "44599ce9-9f51-4cf7-bde4-9dd8342884e5")
+		)
+		(pin "10"
+			(uuid "9f3db4f3-5aab-487a-9809-9a195ff2f905")
+		)
+		(pin "2"
+			(uuid "14e370f7-2cea-47e0-b88d-305981d682d1")
+		)
+		(pin "12"
+			(uuid "da68d04a-2783-4368-82fc-f64eef7ff6cb")
+		)
+		(pin "17"
+			(uuid "7c2d4279-7e19-4cd6-b71f-ebaf62cda34f")
+		)
+		(pin "5"
+			(uuid "746c2482-5381-4372-9d28-12ec05c1453f")
+		)
+		(pin "19"
+			(uuid "90eb7a7c-fa8a-462f-ba3d-c57d09fd5958")
+		)
+		(pin "4"
+			(uuid "d989f199-8307-4485-b2d7-cb2a995f015e")
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/36969bb7-c4d7-4529-91e1-05d64cbf59b4"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:MAX31865xTP")
+		(at 129.54 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e000f0e-efe6-463c-bcac-1d63de39a893")
+		(property "Reference" "U3"
+			(at 134.2233 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX31865xTP"
+			(at 134.2233 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm"
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf"
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RTD-to-Digital Converter, TQFN-20"
+			(at 129.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "4afbb866-8c37-4ce9-9f1a-8d3429dbcb0c")
+		)
+		(pin "6"
+			(uuid "e2abd1e3-3e0b-4d68-a7db-e4e9a2f4d4f8")
+		)
+		(pin "3"
+			(uuid "ddd2631d-995f-420c-b940-02ff25976904")
+		)
+		(pin "11"
+			(uuid "dde12fc8-c1cc-481c-ad1c-09f6403a8075")
+		)
+		(pin "16"
+			(uuid "274cf4d0-6e4f-4298-83fb-9f227ddf6a1e")
+		)
+		(pin "15"
+			(uuid "c6fc7647-b8f7-4173-a4ce-24f1bf4630b4")
+		)
+		(pin "13"
+			(uuid "0c88ac8d-ed83-476a-97e0-ccf507e6798e")
+		)
+		(pin "14"
+			(uuid "ac07ff8c-3d29-4ff5-973e-f61c1d99c8bd")
+		)
+		(pin "21"
+			(uuid "52a1962b-1bac-48a0-a602-db5e08f13819")
+		)
+		(pin "20"
+			(uuid "3b461e90-e1a5-4b5b-bc45-8786b0ee996f")
+		)
+		(pin "1"
+			(uuid "f73230e8-3857-462a-924f-016dead041cd")
+		)
+		(pin "18"
+			(uuid "d7fedd3d-ec99-48d8-b111-457096148592")
+		)
+		(pin "9"
+			(uuid "70791643-e3f2-41ce-bb61-4dfb1dec14f1")
+		)
+		(pin "8"
+			(uuid "e74b008f-a1f2-4e7c-8100-712fe0216504")
+		)
+		(pin "10"
+			(uuid "872e36ec-58cc-433d-b64b-de32bedb375a")
+		)
+		(pin "2"
+			(uuid "d16f4958-10e6-4301-8e6f-a613cff750d1")
+		)
+		(pin "12"
+			(uuid "94169664-fd64-4236-af1b-f83c2f4f2be1")
+		)
+		(pin "17"
+			(uuid "3ac7747b-dd1f-45da-bc3d-5152793643c0")
+		)
+		(pin "5"
+			(uuid "4362bf7a-2119-41a3-b627-420ade71d2c9")
+		)
+		(pin "19"
+			(uuid "32863ca2-9081-4a89-be16-24056b629cac")
+		)
+		(pin "4"
+			(uuid "71b684e5-7b5d-454f-ac34-c6ee017ab846")
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/36969bb7-c4d7-4529-91e1-05d64cbf59b4"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:MAX31865xTP")
+		(at 111.76 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c83af767-420c-4a2e-83ec-3994c3d1756b")
+		(property "Reference" "U5"
+			(at 116.4433 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX31865xTP"
+			(at 116.4433 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm"
+			(at 115.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf"
+			(at 111.76 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RTD-to-Digital Converter, TQFN-20"
+			(at 111.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "604d1fb7-35c9-46b1-9506-da6beb54a4d3")
+		)
+		(pin "6"
+			(uuid "a6a29b0b-e6ac-4325-b02d-9f8c8e234aad")
+		)
+		(pin "3"
+			(uuid "8165db55-440e-4b5f-9601-055179acc01d")
+		)
+		(pin "11"
+			(uuid "1a6df630-ca85-4f74-a856-e6a1a51f9734")
+		)
+		(pin "16"
+			(uuid "694ffe7d-aaf7-4b08-b28d-fb7d46d1d011")
+		)
+		(pin "15"
+			(uuid "ef64c672-a9b1-43be-8249-e65aceeee599")
+		)
+		(pin "13"
+			(uuid "0b49eeb3-c541-42c1-b215-5a0d717eea89")
+		)
+		(pin "14"
+			(uuid "447f3afa-c81f-45b7-a0a8-b04adfa66ff7")
+		)
+		(pin "21"
+			(uuid "efef4e09-a333-497c-9da6-4450e22e7683")
+		)
+		(pin "20"
+			(uuid "8316cbaf-2e96-464d-aa21-1ee82a98486d")
+		)
+		(pin "1"
+			(uuid "ed8592c0-1ae4-403a-8b00-1657135e9231")
+		)
+		(pin "18"
+			(uuid "49782835-97ef-42b9-97b9-7cfa7ca6b718")
+		)
+		(pin "9"
+			(uuid "a943bf40-c58c-43d7-afd1-4838412f5945")
+		)
+		(pin "8"
+			(uuid "72dfce7d-f09b-43c5-af73-2bda8e680da5")
+		)
+		(pin "10"
+			(uuid "4fe09ec2-b788-4aaf-831c-a587c534c70b")
+		)
+		(pin "2"
+			(uuid "b0019027-0793-4048-b0f9-a6b11cae5367")
+		)
+		(pin "12"
+			(uuid "a3d581f3-d18e-436e-b903-4103b93caf8b")
+		)
+		(pin "17"
+			(uuid "aa086433-154d-4bdd-8a40-ad3d5b5f10ff")
+		)
+		(pin "5"
+			(uuid "f566c5ec-68d0-4d51-8ed5-a9f7f1265d97")
+		)
+		(pin "19"
+			(uuid "2005e9b4-c035-4c7d-8393-121bbbed7ad6")
+		)
+		(pin "4"
+			(uuid "8b7a5f4a-1bf5-41e0-b538-0d7c562c4856")
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/36969bb7-c4d7-4529-91e1-05d64cbf59b4"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
