@@ -60,7 +60,6 @@ Probably 4 layers. Don't really need more at this time.
 ## Misc.
 * Consider additional I/O such as ethernet, SD cards, and another USB port for a flash drive
 * Consider a dedicated output for an LCD
-* Consider adding circuitry for eddy current detection (works by simply exciting a coil then measuring the change in impedance as eddy currents are induced into the coil).
 * Consider adding an opamp set for piezo trigger detection.
 * Consider a standardized header for breaking out to other boards.
 * Total BoM cost for 2x is expected to be in the neighborhood of $150 once it's all assembled.
