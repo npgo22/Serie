@@ -1,0 +1,774 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c9ca428d-368e-47dc-b5b7-4062065e6606")
+	(paper "A4")
+	(title_block
+		(title "Serie Mainboard")
+		(rev "1A")
+		(company "Nolan and Kanin")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 15.24 16.51)
+		(end 110.49 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1f9712fd-b3d9-49bd-834c-6002aeb0c15a)
+	)
+	(rectangle
+		(start 116.84 95.25)
+		(end 208.28 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 36389252-a3c3-4440-89d0-47f8dac9c9ee)
+	)
+	(text "Stepper Motor Drivers"
+		(exclude_from_sim no)
+		(at 60.706 21.59 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "09cc2a10-a95b-49b5-b019-4ac4bcb288eb")
+	)
+	(text "C-Axis Driver"
+		(exclude_from_sim no)
+		(at 83.566 93.218 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "14ed52c4-340f-47eb-b05c-fbe307fa6a94")
+	)
+	(text "A-Axis Driver"
+		(exclude_from_sim no)
+		(at 83.82 30.988 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "20ad8e49-e059-4b90-8bb4-9dd627804f0f")
+	)
+	(text "B-Axis Driver"
+		(exclude_from_sim no)
+		(at 83.82 62.992 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "332a3b46-6f4d-4c92-8bed-37bd9f806cec")
+	)
+	(text "Y-Axis Driver"
+		(exclude_from_sim no)
+		(at 34.798 64.262 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "3b3caa05-f2fe-4c62-a344-750c6a9aeb40")
+	)
+	(text "Thermocouples"
+		(exclude_from_sim no)
+		(at 162.052 100.838 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "561a7a36-0675-4b7e-ba25-337423547903")
+	)
+	(text "Z-Axis Driver 1"
+		(exclude_from_sim no)
+		(at 38.862 93.726 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "67c08580-f1d3-410c-a487-1d354a71715b")
+	)
+	(text "D-Axis Driver"
+		(exclude_from_sim no)
+		(at 83.566 127.508 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d2291d1b-a367-4dd6-a7fc-550853d0b2c8")
+	)
+	(text "Z-Axis Driver 2"
+		(exclude_from_sim no)
+		(at 38.608 127.762 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d6513deb-6299-47f8-b308-fda364c317c9")
+	)
+	(text "X-Axis Driver"
+		(exclude_from_sim no)
+		(at 33.274 31.496 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d89100e2-a7a5-4662-85f0-2cfe180f99ba")
+	)
+	(polyline
+		(pts
+			(xy 15.24 26.67) (xy 110.49 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c049d2-8736-432b-ba50-03c90c56b167")
+	)
+	(wire
+		(pts
+			(xy 50.8 43.18) (xy 40.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cba13b5-ef3b-4d81-9f8d-3b8051909ebe")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 40.64 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602f6d76-de4f-45e7-aca0-90e49464e852")
+	)
+	(wire
+		(pts
+			(xy 50.8 45.72) (xy 40.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6c30bb-7020-4638-b603-d22ed1e9a9c6")
+	)
+	(wire
+		(pts
+			(xy 50.8 49.53) (xy 40.64 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13f740c-3989-46e4-803e-1b32622dc784")
+	)
+	(polyline
+		(pts
+			(xy 116.84 105.41) (xy 208.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf690cf-60e1-41f2-b76f-851b875bbb2e")
+	)
+	(wire
+		(pts
+			(xy 50.8 52.07) (xy 40.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb63772c-b798-4848-8a82-c25f2eb085d5")
+	)
+	(label "X_DIAG1"
+		(at 50.8 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10531dce-dc34-4ee4-98a7-c4dad440b97e")
+	)
+	(label "~{X_CS}"
+		(at 50.8 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f1b2232-5716-4ea9-b9bb-eec8a1ec4e18")
+	)
+	(label "X_STEP"
+		(at 50.8 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89061edb-fa04-4051-b7c8-8e6b912b6ea6")
+	)
+	(label "X_DIAG0"
+		(at 50.8 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b25c08c1-9d02-4fb9-b48a-a5d1c46a6619")
+	)
+	(label "X_DIR"
+		(at 50.8 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e17a9bc5-9ac1-46e3-b9df-13835d1c381d")
+	)
+	(sheet
+		(at 20.32 36.83)
+		(size 20.32 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36762e8b-4ff2-4b35-aece-8f04c5de142c")
+		(property "Sheetname" "Driver 1"
+			(at 20.32 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drivers1.kicad_sch"
+			(at 20.32 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "STEP" output
+			(at 40.64 43.18 0)
+			(uuid "4548e3c1-9437-4065-a1f2-d0188e04a537")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CS}" input
+			(at 40.64 39.37 0)
+			(uuid "50f413ce-a119-4542-9186-e6a0561d88d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" output
+			(at 40.64 45.72 0)
+			(uuid "96fc7726-b930-4540-bbb0-e8bc321cbeef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIAG0" output
+			(at 40.64 52.07 0)
+			(uuid "5b13e42c-3d61-49d5-b9c9-1a119c0e90fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIAG1" output
+			(at 40.64 49.53 0)
+			(uuid "4889a66a-59b1-433d-bf71-f4ffce3feea9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87"
+					(page "8")
+				)
+			)
+			(project "connections"
+				(path "/c9ca428d-368e-47dc-b5b7-4062065e6606"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 110.49)
+		(size 29.21 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56899abf-594f-4a20-a476-851335215137")
+		(property "Sheetname" "Thermocouple 1"
+			(at 118.11 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermocouples.kicad_sch"
+			(at 118.11 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{CS}" input
+			(at 147.32 114.3 0)
+			(uuid "38405351-9c30-4727-9595-ccdb3a489f98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DRDY}" output
+			(at 147.32 119.38 0)
+			(uuid "d0ff5cd0-10e1-489b-af22-20f01540312e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{FAULT}" output
+			(at 147.32 124.46 0)
+			(uuid "30a758d2-2748-49c1-95c9-d5305069ae57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87"
+					(page "15")
+				)
+			)
+			(project "connections"
+				(path "/c9ca428d-368e-47dc-b5b7-4062065e6606"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 171.45)
+		(size 29.21 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d82698d-151c-491a-abc7-cfd29f05495c")
+		(property "Sheetname" "Power Outputs"
+			(at 88.9 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "poweroutputs.kicad_sch"
+			(at 88.9 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87"
+					(page "7")
+				)
+			)
+			(project "connections"
+				(path "/c9ca428d-368e-47dc-b5b7-4062065e6606"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 165.1)
+		(size 20.32 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d8796e3-2599-426a-b110-a8cdb181682e")
+		(property "Sheetname" "Isolated Input Set 1"
+			(at 129.54 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inputs.kicad_sch"
+			(at 129.54 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT_A" input
+			(at 149.86 167.64 0)
+			(uuid "a9cffd21-b276-4d0e-856e-df376a763de0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INPUT_D" input
+			(at 149.86 175.26 0)
+			(uuid "9f6d3a00-1c0d-4fbd-9966-16003df43519")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INPUT_B" input
+			(at 149.86 170.18 0)
+			(uuid "601f8b58-855b-4228-9ead-6bcf2ffcdc91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INPUT_C" input
+			(at 149.86 172.72 0)
+			(uuid "eebdb4aa-0212-4cec-aa95-a7570c9e2cbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 171.45)
+		(size 29.21 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9dcd6530-6390-411b-b182-f5c5e3cf1e96")
+		(property "Sheetname" "Regulators"
+			(at 21.59 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 21.59 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87"
+					(page "6")
+				)
+			)
+			(project "connections"
+				(path "/c9ca428d-368e-47dc-b5b7-4062065e6606"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 20.32)
+		(size 59.69 68.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3375e68-f4c5-4ff8-8b2a-8874979eb278")
+		(property "Sheetname" "MCU IO"
+			(at 173.99 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 173.99 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87"
+					(page "4")
+				)
+			)
+			(project "connections"
+				(path "/c9ca428d-368e-47dc-b5b7-4062065e6606"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 171.45)
+		(size 29.21 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6856631-1bed-4ed1-8c9a-4a536ef8161f")
+		(property "Sheetname" "Connectivity"
+			(at 54.61 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectivity.kicad_sch"
+			(at 54.61 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87"
+					(page "5")
+				)
+			)
+			(project "connections"
+				(path "/c9ca428d-368e-47dc-b5b7-4062065e6606"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 107.95)
+		(size 44.45 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe7fd862-de72-44f3-8b46-f459e5699cc5")
+		(property "Sheetname" "Debugger"
+			(at 215.9 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debugger.kicad_sch"
+			(at 215.9 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87"
+					(page "20")
+				)
+			)
+			(project "connections"
+				(path "/c9ca428d-368e-47dc-b5b7-4062065e6606"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

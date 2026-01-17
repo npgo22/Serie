@@ -1,0 +1,23 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "46e894c8-b138-421f-89c7-22aef8c8cd7a")
+	(paper "A4")
+	(title_block
+		(title "Serie Mainboard")
+		(rev "1A")
+		(company "Nolan and Kanin")
+	)
+	(lib_symbols)
+	(text "There are only 7 unique sheets, most of which is stuff I pinched from past projects or is already extremely simple"
+		(exclude_from_sim no)
+		(at 123.19 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61e0c814-c0e5-46fd-b6e2-a808c9cdbae0")
+	)
+)

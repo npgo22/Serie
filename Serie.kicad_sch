@@ -10,51 +10,21 @@
 		(company "Nolan and Kanin")
 	)
 	(lib_symbols)
-	(sheet
-		(at 88.9 137.16)
-		(size 53.34 27.94)
+	(text "Serie 3D Printer Mainboard"
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "36969bb7-c4d7-4529-91e1-05d64cbf59b4")
-		(property "Sheetname" "Thermocouples"
-			(at 88.9 136.4484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+		(at 137.414 28.956 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
 			)
 		)
-		(property "Sheetfile" "thermocouples.kicad_sch"
-			(at 88.9 165.6846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Serie"
-				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b"
-					(page "5")
-				)
-			)
-		)
+		(uuid "e5cd0d03-1abb-4056-998f-1f8879130f3e")
 	)
 	(sheet
-		(at 146.05 95.25)
-		(size 66.04 33.02)
+		(at 100.33 135.89)
+		(size 35.56 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -67,9 +37,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "829e685b-71c9-45db-b278-5541dac81433")
-		(property "Sheetname" "Power"
-			(at 146.05 94.5384 0)
+		(uuid "746d5c0a-0cd4-436a-8816-21d7d00bdf87")
+		(property "Sheetname" "Connections"
+			(at 100.33 135.1784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,8 +47,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 146.05 128.8546 0)
+		(property "Sheetfile" "connections.kicad_sch"
+			(at 100.33 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,8 +65,8 @@
 		)
 	)
 	(sheet
-		(at 214.63 95.25)
-		(size 46.99 30.48)
+		(at 140.97 135.89)
+		(size 34.29 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -109,9 +79,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "847755dd-32cf-4fe1-a97c-3d8a2abbc8d1")
-		(property "Sheetname" "Board IO"
-			(at 214.63 94.5384 0)
+		(uuid "ecb52099-ae36-4259-bbf6-59e78c83fcd0")
+		(property "Sheetname" "Changelog and Notes"
+			(at 140.97 135.1784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,50 +89,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "io.kicad_sch"
-			(at 214.63 126.3146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Serie"
-				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 146.05 133.35)
-		(size 66.04 29.21)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a718b074-1fbc-4d0f-a817-80a7e544d47c")
-		(property "Sheetname" "Driver Set 1"
-			(at 146.05 132.6384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "drivers1.kicad_sch"
-			(at 146.05 163.1446 0)
+		(property "Sheetfile" "chagenotes.kicad_sch"
+			(at 140.97 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,48 +102,6 @@
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 134.62)
-		(size 46.99 29.21)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "cffd479e-749a-4ba1-8c9c-9fbb80073f95")
-		(property "Sheetname" "Driver Set 2"
-			(at 215.9 133.9084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "drivers2.kicad_sch"
-			(at 215.9 164.4146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Serie"
-				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b"
-					(page "4")
 				)
 			)
 		)
