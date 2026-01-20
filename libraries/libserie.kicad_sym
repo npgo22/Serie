@@ -4265,24 +4265,6 @@
 			(pin output line
 				(at 15.24 8.89 180)
 				(length 2.54)
-				(name "OUT2B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 15.24 6.35 180)
-				(length 2.54)
 				(name "OUT1B"
 					(effects
 						(font
@@ -4299,16 +4281,34 @@
 				)
 			)
 			(pin output line
-				(at 15.24 3.81 180)
+				(at 15.24 6.35 180)
 				(length 2.54)
-				(name "OUT2A"
+				(name "OUT2B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "27"
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 3.81 180)
+				(length 2.54)
+				(name "OUT1A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4319,14 +4319,14 @@
 			(pin output line
 				(at 15.24 1.27 180)
 				(length 2.54)
-				(name "OUT1A"
+				(name "OUT2A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "29"
+				(number "27"
 					(effects
 						(font
 							(size 1.27 1.27)

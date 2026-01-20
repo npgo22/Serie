@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [],
@@ -413,7 +413,7 @@
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -430,14 +430,14 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -465,7 +465,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -473,10 +473,26 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "diff_pair_width": 0.35,
+        "name": "50R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35
+      },
+      {
+        "diff_pair_width": 0.3,
+        "name": "LP",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3
       }
     ],
     "meta": {
@@ -484,7 +500,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "LP",
+        "pattern": "*OUT*"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "*USB*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -569,21 +594,51 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part #",
+          "name": "Part #",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "KLC_S3.3"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -635,40 +690,116 @@
       "Connections"
     ],
     [
-      "ecb52099-ae36-4259-bbf6-59e78c83fcd0",
-      "Changelog and Notes"
-    ],
-    [
-      "d3375e68-f4c5-4ff8-8b2a-8874979eb278",
-      "MCU IO"
-    ],
-    [
       "f6856631-1bed-4ed1-8c9a-4a536ef8161f",
       "Connectivity"
     ],
     [
-      "9dcd6530-6390-411b-b182-f5c5e3cf1e96",
-      "Regulators"
-    ],
-    [
-      "7d82698d-151c-491a-abc7-cfd29f05495c",
-      "Power Outputs"
-    ],
-    [
-      "36762e8b-4ff2-4b35-aece-8f04c5de142c",
-      "Driver 1"
-    ],
-    [
-      "56899abf-594f-4a20-a476-851335215137",
-      "Thermocouple 1"
+      "ecb52099-ae36-4259-bbf6-59e78c83fcd0",
+      "Changelog and Notes"
     ],
     [
       "fe7fd862-de72-44f3-8b46-f459e5699cc5",
       "Debugger"
     ],
     [
+      "9dcd6530-6390-411b-b182-f5c5e3cf1e96",
+      "Regulators"
+    ],
+    [
+      "211def0f-771a-4a21-a405-df23606e4e25",
+      "High Power Outputs 1"
+    ],
+    [
+      "46d57e35-aa6e-4a67-a990-a23de73e2f99",
+      "Low Power Outputs"
+    ],
+    [
+      "2f1d21b0-0e1a-467e-9170-4eaa50b64fc6",
+      "Low Power Output 2"
+    ],
+    [
       "9d8796e3-2599-426a-b110-a8cdb181682e",
       "Isolated Input Set 1"
+    ],
+    [
+      "a5b7a272-233e-40ce-8280-637c10c6f56e",
+      "Isolated Input Set 2"
+    ],
+    [
+      "3755a586-eff9-4945-b7c6-3624e55d0e75",
+      "Isolated Input Set 3"
+    ],
+    [
+      "8eafd3d7-8656-4a48-b978-d206d76c7abd",
+      "Isolated Input Set 4"
+    ],
+    [
+      "56899abf-594f-4a20-a476-851335215137",
+      "Thermocouple 1"
+    ],
+    [
+      "456b5059-f615-45e8-be37-42e82852af31",
+      "Thermocouple 2"
+    ],
+    [
+      "cc2c4c77-46ae-4c3d-b67d-970c6f2e185d",
+      "Thermocouple 3"
+    ],
+    [
+      "4e339ba3-b0b7-45db-8cbf-de013cf06712",
+      "Thermocouple 4"
+    ],
+    [
+      "36762e8b-4ff2-4b35-aece-8f04c5de142c",
+      "Driver 1"
+    ],
+    [
+      "78e69de3-a25a-454c-af50-6809c0513b63",
+      "Driver 2"
+    ],
+    [
+      "7e00d559-02ec-4e15-83db-5b32f4bf8f36",
+      "Driver 3"
+    ],
+    [
+      "c256c66d-108a-44ea-9f3c-72affa9614d7",
+      "Driver 4"
+    ],
+    [
+      "89cd2b2c-38e8-4a43-a060-ec5c12a82c44",
+      "Driver 5"
+    ],
+    [
+      "0be0af3f-dd08-48d4-8bee-d68de51ed2f6",
+      "Driver 6"
+    ],
+    [
+      "5c29cc70-26bd-4454-95ce-bf23044070ed",
+      "High Power Output Set 1"
+    ],
+    [
+      "636c9cbc-3eef-40f6-ab43-3106491cea2d",
+      "High Power Output Set 2"
+    ],
+    [
+      "e6cfecc5-dd7f-413e-ae04-0f28b39e34b6",
+      "Low Power Output 1"
+    ],
+    [
+      "919e910d-a42d-4411-ad7a-daa09fd91ea9",
+      "Low Power Output 3"
+    ],
+    [
+      "6ea59e0c-93ac-4088-8cd8-f5d687892a45",
+      "Low Power Output 4"
+    ],
+    [
+      "babbade6-b8bc-4708-b139-fa44b8dc047a",
+      "Low Power Output 5"
+    ],
+    [
+      "826b4c56-5a9c-4016-bec5-41594d200f7e",
+      "Low Power Output 6"
     ]
   ],
   "text_variables": {}

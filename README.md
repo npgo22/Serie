@@ -22,16 +22,16 @@ Several other standard thermistor inputs will be broken out as needed.
 There will be 6x motors driven by TMC2241s. Each TMC2241 Support to klipper will need to be added to support this.
 
 ### Isolated Inputs
-There should be at least 16 digitally isolated inputs.
+There are 16 digitally isolated inputs.
 
 ### Low Power Outputs
-There should be at least 16 outputs driven by small MOSFETs for outputs to other devices.
+There are 6 outputs driven by small MOSFETs for outputs to other devices.
 
 ### Buses
 As many buses should be broken out as possible.
 
 ### 12V Outputs
-There should be a decent select of moderately powerful 12V outputs to drive peripherals such as fans.
+There are four 12V outputs to drive peripherals such as fans.
 
 ### USB
 There will be at least 1 USB-C input.

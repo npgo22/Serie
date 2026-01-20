@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "46e894c8-b138-421f-89c7-22aef8c8cd7a")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
 		(title "Serie Mainboard")
 		(rev "1A")
