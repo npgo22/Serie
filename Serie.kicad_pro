@@ -631,6 +631,24 @@
           "label": "Part #",
           "name": "Part #",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Item #",
+          "name": "Item #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -691,11 +709,7 @@
     ],
     [
       "f6856631-1bed-4ed1-8c9a-4a536ef8161f",
-      "Connectivity"
-    ],
-    [
-      "ecb52099-ae36-4259-bbf6-59e78c83fcd0",
-      "Changelog and Notes"
+      "USB and Sensors"
     ],
     [
       "fe7fd862-de72-44f3-8b46-f459e5699cc5",
@@ -710,28 +724,32 @@
       "High Power Outputs 1"
     ],
     [
+      "94f17a04-c6d5-46e7-8bd8-12b14cb74211",
+      "High Power Outputs 2"
+    ],
+    [
       "46d57e35-aa6e-4a67-a990-a23de73e2f99",
       "Low Power Outputs"
+    ],
+    [
+      "e6cfecc5-dd7f-413e-ae04-0f28b39e34b6",
+      "Low Power Output 1"
     ],
     [
       "2f1d21b0-0e1a-467e-9170-4eaa50b64fc6",
       "Low Power Output 2"
     ],
     [
+      "919e910d-a42d-4411-ad7a-daa09fd91ea9",
+      "Low Power Output 3"
+    ],
+    [
       "9d8796e3-2599-426a-b110-a8cdb181682e",
       "Isolated Input Set 1"
     ],
     [
-      "a5b7a272-233e-40ce-8280-637c10c6f56e",
+      "9f2b6450-1cac-456b-9cec-611ba9369077",
       "Isolated Input Set 2"
-    ],
-    [
-      "3755a586-eff9-4945-b7c6-3624e55d0e75",
-      "Isolated Input Set 3"
-    ],
-    [
-      "8eafd3d7-8656-4a48-b978-d206d76c7abd",
-      "Isolated Input Set 4"
     ],
     [
       "56899abf-594f-4a20-a476-851335215137",
@@ -740,14 +758,6 @@
     [
       "456b5059-f615-45e8-be37-42e82852af31",
       "Thermocouple 2"
-    ],
-    [
-      "cc2c4c77-46ae-4c3d-b67d-970c6f2e185d",
-      "Thermocouple 3"
-    ],
-    [
-      "4e339ba3-b0b7-45db-8cbf-de013cf06712",
-      "Thermocouple 4"
     ],
     [
       "36762e8b-4ff2-4b35-aece-8f04c5de142c",
@@ -774,32 +784,8 @@
       "Driver 6"
     ],
     [
-      "5c29cc70-26bd-4454-95ce-bf23044070ed",
-      "High Power Output Set 1"
-    ],
-    [
-      "636c9cbc-3eef-40f6-ab43-3106491cea2d",
-      "High Power Output Set 2"
-    ],
-    [
-      "e6cfecc5-dd7f-413e-ae04-0f28b39e34b6",
-      "Low Power Output 1"
-    ],
-    [
-      "919e910d-a42d-4411-ad7a-daa09fd91ea9",
-      "Low Power Output 3"
-    ],
-    [
-      "6ea59e0c-93ac-4088-8cd8-f5d687892a45",
-      "Low Power Output 4"
-    ],
-    [
-      "babbade6-b8bc-4708-b139-fa44b8dc047a",
-      "Low Power Output 5"
-    ],
-    [
-      "826b4c56-5a9c-4016-bec5-41594d200f7e",
-      "Low Power Output 6"
+      "ecb52099-ae36-4259-bbf6-59e78c83fcd0",
+      "Changelog and Notes"
     ]
   ],
   "text_variables": {}
