@@ -5171,7 +5171,7 @@
 		)
 		(symbol "TMC2241ATC_0_0"
 			(pin input line
-				(at -15.24 21.59 0)
+				(at -15.24 24.13 0)
 				(length 2.54)
 				(name "~{SLEEP}"
 					(effects
@@ -5659,9 +5659,9 @@
 		)
 		(symbol "TMC2241ATC_1_0"
 			(pin input line
-				(at -15.24 24.13 0)
+				(at -15.24 21.59 0)
 				(length 2.54)
-				(name "~{DRV_EN}"
+				(name "DRV_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5677,7 +5677,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -6.35 34.29 270)
+				(at -11.43 34.29 270)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5696,7 +5696,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -6.35 34.29 270)
+				(at -10.16 34.29 270)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5715,7 +5715,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -6.35 34.29 270)
+				(at -8.89 34.29 270)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5734,7 +5734,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -6.35 34.29 270)
+				(at -7.62 34.29 270)
 				(length 2.54)
 				(hide yes)
 				(name "NC"

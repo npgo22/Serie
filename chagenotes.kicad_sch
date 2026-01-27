@@ -10,14 +10,4 @@
 		(company "Nolan and Kanin")
 	)
 	(lib_symbols)
-	(text "There are only 7 unique sheets, most of which is stuff I pinched from past projects or is already extremely simple"
-		(exclude_from_sim no)
-		(at 123.19 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "61e0c814-c0e5-46fd-b6e2-a808c9cdbae0")
-	)
 )

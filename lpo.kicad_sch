@@ -1231,7 +1231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1066d1f5-3c19-40ae-8cb8-1e1705f8d83f")
-		(property "Reference" "J16"
+		(property "Reference" "J15"
 			(at 142.24 96.5199 0)
 			(effects
 				(font
@@ -1249,7 +1249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -1303,15 +1303,15 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/2f1d21b0-0e1a-467e-9170-4eaa50b64fc6"
-					(reference "J17")
+					(reference "J16")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/919e910d-a42d-4411-ad7a-daa09fd91ea9"
-					(reference "J18")
+					(reference "J17")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/e6cfecc5-dd7f-413e-ae04-0f28b39e34b6"
-					(reference "J16")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -1432,7 +1432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "719654f1-b9ec-42dc-b92e-fac0badc3fbb")
-		(property "Reference" "R43"
+		(property "Reference" "R55"
 			(at 119.38 123.1899 0)
 			(effects
 				(font
@@ -1504,15 +1504,15 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/2f1d21b0-0e1a-467e-9170-4eaa50b64fc6"
-					(reference "R46")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/919e910d-a42d-4411-ad7a-daa09fd91ea9"
-					(reference "R49")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/e6cfecc5-dd7f-413e-ae04-0f28b39e34b6"
-					(reference "R43")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -1528,7 +1528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "871a2213-6787-4e8d-afd6-091d5463448e")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0132"
 			(at 130.81 99.06 0)
 			(effects
 				(font
@@ -1578,15 +1578,15 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/2f1d21b0-0e1a-467e-9170-4eaa50b64fc6"
-					(reference "#PWR0135")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/919e910d-a42d-4411-ad7a-daa09fd91ea9"
-					(reference "#PWR0137")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/e6cfecc5-dd7f-413e-ae04-0f28b39e34b6"
-					(reference "#PWR0133")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -1704,7 +1704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c50c3946-3f03-4360-bb97-f08bee462d5f")
-		(property "Reference" "R42"
+		(property "Reference" "R53"
 			(at 119.38 99.0599 0)
 			(effects
 				(font
@@ -1776,15 +1776,15 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/2f1d21b0-0e1a-467e-9170-4eaa50b64fc6"
-					(reference "R45")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/919e910d-a42d-4411-ad7a-daa09fd91ea9"
-					(reference "R48")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/e6cfecc5-dd7f-413e-ae04-0f28b39e34b6"
-					(reference "R42")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -1800,7 +1800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2cfb9d6-d710-4f70-8214-d0fd84d8d0ac")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0133"
 			(at 127 135.89 0)
 			(effects
 				(font
@@ -1851,15 +1851,15 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/2f1d21b0-0e1a-467e-9170-4eaa50b64fc6"
-					(reference "#PWR0134")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/919e910d-a42d-4411-ad7a-daa09fd91ea9"
-					(reference "#PWR0136")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/e6cfecc5-dd7f-413e-ae04-0f28b39e34b6"
-					(reference "#PWR0132")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -1875,7 +1875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0db9d18-945e-433b-b24d-250e1b73c6b6")
-		(property "Reference" "R41"
+		(property "Reference" "R54"
 			(at 113.03 111.76 90)
 			(effects
 				(font
@@ -1945,15 +1945,15 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/2f1d21b0-0e1a-467e-9170-4eaa50b64fc6"
-					(reference "R44")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/919e910d-a42d-4411-ad7a-daa09fd91ea9"
-					(reference "R47")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99/e6cfecc5-dd7f-413e-ae04-0f28b39e34b6"
-					(reference "R41")
+					(reference "R54")
 					(unit 1)
 				)
 			)

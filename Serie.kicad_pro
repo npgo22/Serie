@@ -709,11 +709,11 @@
     ],
     [
       "f6856631-1bed-4ed1-8c9a-4a536ef8161f",
-      "USB and Sensors"
+      "Sensors"
     ],
     [
       "fe7fd862-de72-44f3-8b46-f459e5699cc5",
-      "Debugger"
+      "Debugger and USB"
     ],
     [
       "9dcd6530-6390-411b-b182-f5c5e3cf1e96",
@@ -724,7 +724,7 @@
       "High Power Outputs 1"
     ],
     [
-      "94f17a04-c6d5-46e7-8bd8-12b14cb74211",
+      "66988366-61a4-481e-88ad-8d8abc7d35d0",
       "High Power Outputs 2"
     ],
     [
@@ -756,7 +756,7 @@
       "Thermocouple 1"
     ],
     [
-      "456b5059-f615-45e8-be37-42e82852af31",
+      "d6961aef-6792-4de5-80fd-edb2848d1883",
       "Thermocouple 2"
     ],
     [
