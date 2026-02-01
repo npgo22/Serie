@@ -2173,6 +2173,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 137.16) (xy 148.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08db67df-4b4d-4578-b894-29ce0db01d0f")
+	)
+	(wire
+		(pts
 			(xy 175.26 114.3) (xy 184.15 114.3)
 		)
 		(stroke
@@ -2200,16 +2210,6 @@
 			(type default)
 		)
 		(uuid "12f86fbe-94a6-4f84-93bd-6b1145867d7c")
-	)
-	(wire
-		(pts
-			(xy 148.59 115.57) (xy 133.35 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16d270e5-778d-4a68-8b00-7cd372560f91")
 	)
 	(wire
 		(pts
@@ -2273,13 +2273,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 110.49) (xy 133.35 110.49)
+			(xy 148.59 110.49) (xy 143.51 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28b565e8-64b6-4c7c-87ca-6a5bf9868258")
+		(uuid "3547fa64-6099-4e48-a7c1-5da62c9f35e2")
 	)
 	(wire
 		(pts
@@ -2333,13 +2333,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 137.16) (xy 148.59 137.16)
+			(xy 133.35 110.49) (xy 138.43 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "423f366d-5a14-47ab-81c0-d57e84ac2307")
+		(uuid "429615f5-ea71-4928-93dc-6f61fd1651f2")
 	)
 	(wire
 		(pts
@@ -2423,16 +2423,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 137.16) (xy 148.59 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3b7c3d-3848-4b6f-be0f-c6f18a59aa6e")
-	)
-	(wire
-		(pts
 			(xy 163.83 146.05) (xy 176.53 146.05)
 		)
 		(stroke
@@ -2470,6 +2460,16 @@
 			(type default)
 		)
 		(uuid "85161cb4-7cb4-4ca3-82f4-8d564865e738")
+	)
+	(wire
+		(pts
+			(xy 138.43 110.49) (xy 143.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86644fee-1aec-44f3-a25f-77de72dbd2a0")
 	)
 	(wire
 		(pts
@@ -2623,6 +2623,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 110.49) (xy 138.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c143b716-3eaf-4a41-9033-abfe1dbfc4de")
+	)
+	(wire
+		(pts
 			(xy 110.49 107.95) (xy 110.49 105.41)
 		)
 		(stroke
@@ -2630,6 +2640,16 @@
 			(type default)
 		)
 		(uuid "c5d85ee7-bfe6-45f3-aade-bf2bd3d73831")
+	)
+	(wire
+		(pts
+			(xy 133.35 115.57) (xy 138.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d64253-a9f1-4a59-ac9f-90cd1b8452ad")
 	)
 	(wire
 		(pts
@@ -2653,6 +2673,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 115.57) (xy 148.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22d09a9-b673-4a73-bc59-a81c58e13261")
+	)
+	(wire
+		(pts
 			(xy 140.97 95.25) (xy 139.7 95.25)
 		)
 		(stroke
@@ -2660,6 +2690,16 @@
 			(type default)
 		)
 		(uuid "d3802b5a-d189-4290-bf6a-7e4380cb3ef3")
+	)
+	(wire
+		(pts
+			(xy 148.59 137.16) (xy 154.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddca70f6-daa0-4bb8-bbb5-c33d27f1bc0f")
 	)
 	(wire
 		(pts
@@ -2732,7 +2772,7 @@
 		(uuid "fe5caf63-3c4e-4e07-948f-108f9549af11")
 	)
 	(label "OUTA"
-		(at 135.89 110.49 0)
+		(at 151.13 81.28 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -2742,7 +2782,7 @@
 		(uuid "701373c5-5329-4da2-803d-4e9bbbd739da")
 	)
 	(label "OUTB"
-		(at 135.9947 115.57 0)
+		(at 152.4 137.16 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -2783,7 +2823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03029ef4-06d4-4cb8-a054-2d4a56ed6f3a")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0122"
 			(at 176.53 154.94 0)
 			(effects
 				(font
@@ -2834,97 +2874,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "#PWR0123")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:CSD18532NQ5B")
-		(at 173.99 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c9120e5-32c5-4165-afe5-3fb7ea64285d")
-		(property "Reference" "Q2"
-			(at 180.34 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CSD18532NQ5B"
-			(at 180.34 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 179.07 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/csd18532nq5b"
-			(at 179.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 3.4mOhm Ron, 49nC Qg(typ), SON8 5x6mm"
-			(at 173.99 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "b095d03d-d80e-4af8-9f76-3b6b79f61567")
-		)
-		(pin "2"
-			(uuid "7e8d49ca-98be-4a6f-bee4-55177d4cb6c3")
-		)
-		(pin "4"
-			(uuid "1009ae16-781a-4936-8b38-a0db2d6b15de")
-		)
-		(pin "3"
-			(uuid "31b6f6d5-64dc-48d1-86c8-d0f20b93abfc")
-		)
-		(pin "1"
-			(uuid "b3099ea9-b2d1-4835-b5ab-35925a57f68c")
-		)
-		(instances
-			(project "Serie"
-				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "Q2")
-					(unit 1)
-				)
-				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "Q4")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -2940,7 +2894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1854c17e-5613-4049-923b-26cc010b63bd")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0117"
 			(at 176.53 99.06 0)
 			(effects
 				(font
@@ -2991,11 +2945,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "#PWR0118")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "#PWR0126")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -3010,7 +2964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22b69ccf-8cf8-4a01-9bdd-cefb9b7ed215")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 168.91 68.326 90)
 			(effects
 				(font
@@ -3092,114 +3046,12 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "D13")
+					(reference "D12")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "libserie:Screw_Terminal_06x01x02")
-		(at 189.23 58.42 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "431ac908-7467-4c50-9080-6172a0278760")
-		(property "Reference" "J14"
-			(at 194.564 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_06x01x02"
-			(at 189.23 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Ningbo-Kagnex:TerminalBlock_Ningbo-Kagnex_HB9500M_1x12_P9.5mm"
-			(at 189.23 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "72094b7f-e3eb-497d-b5a0-4c428949d87a")
-		)
-		(pin "4"
-			(uuid "b4ab846f-7586-4a08-8e58-b002b42f29a8")
-		)
-		(pin "3"
-			(uuid "a7ffabe8-ab26-481d-8a04-d8c20ee06fa8")
-		)
-		(pin "10"
-			(uuid "252cb09a-458b-478a-87f5-421b280301e1")
-		)
-		(pin "7"
-			(uuid "6f3b393f-61c3-4d89-969a-26cb6e781b0b")
-		)
-		(pin "8"
-			(uuid "a4e98d15-ed5f-476c-bb67-74d70ec09ba0")
-		)
-		(pin "9"
-			(uuid "5dc34907-c6be-4570-a27d-7255aeef0828")
-		)
-		(pin "6"
-			(uuid "273b5b92-e233-4fe7-9f8d-f3080a57ecd3")
-		)
-		(pin "12"
-			(uuid "d1e2c673-4fde-49ad-9579-0b4944d54182")
-		)
-		(pin "5"
-			(uuid "59204dad-60bf-4299-b16f-835c66a9a5a3")
-		)
-		(pin "1"
-			(uuid "5266ee28-8d8c-4258-8a70-78649d95c855")
-		)
-		(pin "2"
-			(uuid "77f52398-3f42-43c4-af73-d3202ac0e995")
-		)
-		(instances
-			(project "Serie"
-				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "J14")
-					(unit 3)
-				)
-				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "J14")
-					(unit 5)
 				)
 			)
 		)
@@ -3214,7 +3066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4871c99f-1a13-4c59-b9c4-69107385ae3e")
-		(property "Reference" "R44"
+		(property "Reference" "R37"
 			(at 168.91 116.8399 0)
 			(effects
 				(font
@@ -3286,11 +3138,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "R44")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "R50")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3306,7 +3158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a953a66-eb31-4df5-9866-b5d5069a12e1")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0115"
 			(at 175.26 60.96 0)
 			(effects
 				(font
@@ -3357,11 +3209,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "#PWR0116")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "#PWR0124")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -3377,7 +3229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "572c1612-11e0-4644-bcaf-3c4178bc2bad")
-		(property "Reference" "R42"
+		(property "Reference" "R35"
 			(at 156.21 74.93 90)
 			(effects
 				(font
@@ -3447,11 +3299,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "R42")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "R48")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -3467,7 +3319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b4afc39-003c-4599-8b33-570260df86ec")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0118"
 			(at 140.97 102.87 0)
 			(effects
 				(font
@@ -3518,11 +3370,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "#PWR0119")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "#PWR0127")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -3537,7 +3389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c48ea2d-985a-4ec3-9c90-fad8ff47dca3")
-		(property "Reference" "D12"
+		(property "Reference" "D11"
 			(at 168.91 124.206 90)
 			(effects
 				(font
@@ -3619,11 +3471,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "D12")
+					(reference "D11")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "D14")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -3639,7 +3491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63fca3dd-d93a-43b3-a02b-de82849050eb")
-		(property "Reference" "R43"
+		(property "Reference" "R36"
 			(at 166.37 85.0899 0)
 			(effects
 				(font
@@ -3711,11 +3563,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "R43")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "R49")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -3731,7 +3583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c3f7a83-7691-4e38-a978-78df4cb6b33e")
-		(property "Reference" "R41"
+		(property "Reference" "R34"
 			(at 168.91 60.9599 0)
 			(effects
 				(font
@@ -3803,11 +3655,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "R41")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "R47")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3823,7 +3675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e4855e3-d128-4b87-816c-11e38758eaf0")
-		(property "Reference" "R46"
+		(property "Reference" "R39"
 			(at 166.37 140.9699 0)
 			(effects
 				(font
@@ -3895,11 +3747,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "R46")
+					(reference "R39")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "R52")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -3915,7 +3767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759905bf-46ea-4ea4-aba8-ce12f46fb4b5")
-		(property "Reference" "C69"
+		(property "Reference" "C73"
 			(at 142.24 90.1635 0)
 			(effects
 				(font
@@ -3987,11 +3839,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "C69")
+					(reference "C73")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "C71")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -4007,7 +3859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75b03374-7b5b-4caa-94e2-e837448b924d")
-		(property "Reference" "U16"
+		(property "Reference" "U18"
 			(at 125.3333 100.33 0)
 			(effects
 				(font
@@ -4025,7 +3877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:Texas_DGN0008G_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.846x2.15mm_ThermalVias"
+		(property "Footprint" "libserie:Texas_DGN0008G_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.846x2.15mm_ThermalVias"
 			(at 123.19 121.92 0)
 			(effects
 				(font
@@ -4100,11 +3952,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "U16")
+					(reference "U18")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "U17")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -4120,7 +3972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b7cb28b-ac6d-4963-b1db-62fd7dc3d91c")
-		(property "Reference" "C68"
+		(property "Reference" "C72"
 			(at 130.81 90.1635 0)
 			(effects
 				(font
@@ -4192,11 +4044,94 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "C68")
+					(reference "C72")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "C70")
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:CSD18532NQ5B")
+		(at 173.99 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cf5f2ce-97d7-43a1-b075-fca0fc10b1a4")
+		(property "Reference" "Q4"
+			(at 182.88 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSC016N06NS"
+			(at 180.34 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 179.07 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/csd18532nq5b"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 3.4mOhm Ron, 49nC Qg(typ), SON8 5x6mm"
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ee036b04-b567-40aa-8dbd-c01eeae55deb")
+		)
+		(pin "2"
+			(uuid "ff690211-aec3-4ad9-9d1b-a1628d430c4d")
+		)
+		(pin "4"
+			(uuid "ec1c074e-d638-4a9d-9c9c-46310cbf0d19")
+		)
+		(pin "3"
+			(uuid "fd88b4e7-649d-4365-8095-f294f916b552")
+		)
+		(pin "1"
+			(uuid "b873fa25-63d7-4cde-8c72-8e8463070451")
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -4212,7 +4147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98b0f0f7-ea6a-4627-ac4d-c98f14b8360a")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0121"
 			(at 123.19 130.81 0)
 			(effects
 				(font
@@ -4263,163 +4198,6 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:CSD18532NQ5B")
-		(at 173.99 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a352089c-e481-4fd2-a086-0fea7ef03673")
-		(property "Reference" "Q1"
-			(at 180.34 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CSD18532NQ5B"
-			(at 180.34 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 179.07 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/csd18532nq5b"
-			(at 179.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 3.4mOhm Ron, 49nC Qg(typ), SON8 5x6mm"
-			(at 173.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "3f33ee35-316a-4842-b915-8371946128be")
-		)
-		(pin "2"
-			(uuid "07363aa5-99bc-4a07-bf65-470c7e971d6b")
-		)
-		(pin "4"
-			(uuid "66a8d78c-f968-4a94-a0af-9b615d3188d1")
-		)
-		(pin "3"
-			(uuid "976b534e-5119-40e2-9016-d0f6c7dd2c29")
-		)
-		(pin "1"
-			(uuid "3bbc7f49-9e65-49a4-9d81-bd17852205f9")
-		)
-		(instances
-			(project "Serie"
-				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "Q1")
-					(unit 1)
-				)
-				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 175.26 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a83b82fa-b0dd-4da5-ba6e-00497f739fd2")
-		(property "Reference" "#PWR0121"
-			(at 175.26 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 177.8 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 175.26 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "141d18f5-a6fc-404a-a776-5f00e292744d")
-		)
-		(instances
-			(project "Serie"
-				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
 					(reference "#PWR0121")
 					(unit 1)
 				)
@@ -4432,14 +4210,116 @@
 	)
 	(symbol
 		(lib_id "libserie:Screw_Terminal_06x01x02")
+		(at 189.23 58.42 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99806e81-aee0-42bd-9736-2db5e8f7e7ff")
+		(property "Reference" "J10"
+			(at 194.564 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_06x01x02"
+			(at 189.23 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Ningbo-Kagnex:TerminalBlock_Ningbo-Kagnex_HB9500M_1x12_P9.5mm"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "72094b7f-e3eb-497d-b5a0-4c428949d87a")
+		)
+		(pin "4"
+			(uuid "b4ab846f-7586-4a08-8e58-b002b42f29a8")
+		)
+		(pin "3"
+			(uuid "a7ffabe8-ab26-481d-8a04-d8c20ee06fa8")
+		)
+		(pin "10"
+			(uuid "252cb09a-458b-478a-87f5-421b280301e1")
+		)
+		(pin "7"
+			(uuid "6f3b393f-61c3-4d89-969a-26cb6e781b0b")
+		)
+		(pin "8"
+			(uuid "a4e98d15-ed5f-476c-bb67-74d70ec09ba0")
+		)
+		(pin "9"
+			(uuid "5dc34907-c6be-4570-a27d-7255aeef0828")
+		)
+		(pin "6"
+			(uuid "52727393-5e0d-4291-894f-92a276dd3a8f")
+		)
+		(pin "12"
+			(uuid "d1e2c673-4fde-49ad-9579-0b4944d54182")
+		)
+		(pin "5"
+			(uuid "fa1f5742-c0b5-4daf-9705-e51470623eed")
+		)
+		(pin "1"
+			(uuid "5266ee28-8d8c-4258-8a70-78649d95c855")
+		)
+		(pin "2"
+			(uuid "77f52398-3f42-43c4-af73-d3202ac0e995")
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
+					(reference "J10")
+					(unit 3)
+				)
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
+					(reference "J10")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "libserie:Screw_Terminal_06x01x02")
 		(at 189.23 114.3 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a92df5d7-ef77-4954-b669-171b6fa20511")
-		(property "Reference" "J14"
+		(uuid "9f16d3e5-562d-4980-966d-2757619170cb")
+		(property "Reference" "J10"
 			(at 195.072 115.824 0)
 			(effects
 				(font
@@ -4496,10 +4376,10 @@
 			(uuid "252cb09a-458b-478a-87f5-421b280301de")
 		)
 		(pin "7"
-			(uuid "baed18dc-156e-41c6-b59d-2cf286e8fa05")
+			(uuid "d2ce308f-831e-4bd7-aa47-f384ff31776d")
 		)
 		(pin "8"
-			(uuid "6b2d1ab4-d7b9-4a4b-a74d-cb86dbaf80f6")
+			(uuid "b65ef326-35f6-4c26-8a76-e65ef617df9a")
 		)
 		(pin "9"
 			(uuid "5dc34907-c6be-4570-a27d-7255aeef0825")
@@ -4522,12 +4402,83 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "J14")
+					(reference "J10")
 					(unit 4)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "J14")
+					(reference "J10")
 					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 175.26 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a83b82fa-b0dd-4da5-ba6e-00497f739fd2")
+		(property "Reference" "#PWR0120"
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 177.8 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "141d18f5-a6fc-404a-a776-5f00e292744d")
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
+					(reference "#PWR0128")
+					(unit 1)
 				)
 			)
 		)
@@ -4542,7 +4493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9f48273-ad2c-4f4f-a96c-68caf3181c66")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0119"
 			(at 110.49 109.22 0)
 			(effects
 				(font
@@ -4592,11 +4543,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "#PWR0120")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "#PWR0128")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -4612,7 +4563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5029c14-e6be-40f5-a264-f1b46127cab8")
-		(property "Reference" "R45"
+		(property "Reference" "R38"
 			(at 157.48 130.81 90)
 			(effects
 				(font
@@ -4682,11 +4633,11 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "R45")
+					(reference "R38")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "R51")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -4702,7 +4653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daa89d61-edbd-4204-9039-321375ef4f8a")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0116"
 			(at 123.19 90.17 0)
 			(effects
 				(font
@@ -4752,11 +4703,94 @@
 		(instances
 			(project "Serie"
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
-					(reference "#PWR0117")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
-					(reference "#PWR0125")
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:CSD18532NQ5B")
+		(at 173.99 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6ee1f9c-b95b-417a-a086-e916e805dcdb")
+		(property "Reference" "Q5"
+			(at 182.88 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSC016N06NS"
+			(at 180.34 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 179.07 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/csd18532nq5b"
+			(at 179.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 3.4mOhm Ron, 49nC Qg(typ), SON8 5x6mm"
+			(at 173.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "44c75229-92fa-4f90-aa5b-2d488fbea2b9")
+		)
+		(pin "2"
+			(uuid "ed0883d8-0539-482a-87fa-a2a37ee5ca65")
+		)
+		(pin "4"
+			(uuid "277624f2-b642-483a-9297-3b661b6fa8be")
+		)
+		(pin "3"
+			(uuid "338ec0c1-8642-4653-a1d1-4fef9cb77098")
+		)
+		(pin "1"
+			(uuid "80fab8d3-5a1d-4578-bcb9-9bcd3a7050d6")
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/211def0f-771a-4a21-a405-df23606e4e25"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/66988366-61a4-481e-88ad-8d8abc7d35d0"
+					(reference "Q7")
 					(unit 1)
 				)
 			)

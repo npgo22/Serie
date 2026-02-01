@@ -22,23 +22,83 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 87.63) (xy 143.51 87.63)
+			(xy 154.94 107.95) (xy 143.51 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f014c38-cd1a-48a4-bece-f2992fc59efa")
+		(uuid "01ec1b81-7668-427f-af50-1cb815d92be7")
 	)
 	(wire
 		(pts
-			(xy 154.94 77.47) (xy 143.51 77.47)
+			(xy 154.94 135.89) (xy 143.51 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91824eb1-0466-4546-a4cb-ce9cba522413")
+		(uuid "37566f97-ed04-40e3-9c7f-6e1c60ce6abb")
+	)
+	(wire
+		(pts
+			(xy 154.94 110.49) (xy 143.51 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b292814-1eef-4aa8-a26b-98b574721372")
+	)
+	(wire
+		(pts
+			(xy 154.94 93.98) (xy 143.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74942ade-e9c4-4b68-8d87-9d1e66e0d0d9")
+	)
+	(wire
+		(pts
+			(xy 154.94 96.52) (xy 143.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871555fa-e2bd-46dd-95b6-b10a01132572")
+	)
+	(wire
+		(pts
+			(xy 154.94 82.55) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c4fb0b-74f0-448c-ab1c-5788eade0272")
+	)
+	(wire
+		(pts
+			(xy 154.94 121.92) (xy 143.51 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c064688d-b480-45ae-bc95-5d772240a6c1")
+	)
+	(wire
+		(pts
+			(xy 154.94 80.01) (xy 143.51 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46089ae-6c72-4411-99c4-400b2d03effe")
 	)
 	(wire
 		(pts
@@ -50,16 +110,156 @@
 		)
 		(uuid "c558d3ae-98eb-471a-9f7e-01ada25b4fc1")
 	)
-	(hierarchical_label "OUT_LP_3"
+	(wire
+		(pts
+			(xy 154.94 69.85) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e0a4eb-58c4-4fa2-a460-2a1541d532f4")
+	)
+	(wire
+		(pts
+			(xy 154.94 124.46) (xy 143.51 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e593cb-43a2-41d0-afd9-990e30550dcb")
+	)
+	(wire
+		(pts
+			(xy 154.94 138.43) (xy 143.51 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdbc58bd-1e27-48a4-a3c4-9818d9a9e44a")
+	)
+	(hierarchical_label "OUT_LP_4"
 		(shape input)
-		(at 154.94 87.63 0)
+		(at 154.94 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "899277a0-7cfe-4887-96c4-1609b82b1c91")
+		(uuid "28d62a49-86e6-4456-9300-b3b99bf0cc5e")
+	)
+	(hierarchical_label "TACH1"
+		(shape input)
+		(at 154.94 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49a13561-eabd-4605-a75f-8766cde573c6")
+	)
+	(hierarchical_label "OUT_LP_2"
+		(shape input)
+		(at 154.94 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54dd95fa-c244-4a5e-b59c-a9c1f6c59780")
+	)
+	(hierarchical_label "OUT_LP_3"
+		(shape input)
+		(at 154.94 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e839c68-ea2e-4d01-90fc-78e78c5c6582")
+	)
+	(hierarchical_label "TACH6"
+		(shape input)
+		(at 154.94 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3fc4d9f-d086-4c81-9744-1ebc6f66bbd1")
+	)
+	(hierarchical_label "TACH3"
+		(shape input)
+		(at 154.94 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a65e9a0b-6493-438d-97c4-e25236528348")
+	)
+	(hierarchical_label "TACH5"
+		(shape input)
+		(at 154.94 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9c1cf8e-8c86-4fc3-86c3-9d8c78c57c16")
+	)
+	(hierarchical_label "OUT_LP_5"
+		(shape input)
+		(at 154.94 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa9f8bb6-1ae1-4b72-958a-6448f4162a34")
+	)
+	(hierarchical_label "TACH2"
+		(shape input)
+		(at 154.94 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c14b3fac-188a-47e7-96e1-9f38ef3d0d7f")
+	)
+	(hierarchical_label "OUT_LP_6"
+		(shape input)
+		(at 154.94 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cafbdebc-5760-4de8-b026-a0975643cfbd")
+	)
+	(hierarchical_label "TACH4"
+		(shape input)
+		(at 154.94 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1c08f23-7947-4e13-86e3-751a959f832f")
 	)
 	(hierarchical_label "OUT_LP_1"
 		(shape input)
@@ -72,20 +272,9 @@
 		)
 		(uuid "db52a20a-b812-4042-84d7-02f76d151f5f")
 	)
-	(hierarchical_label "OUT_LP_2"
-		(shape input)
-		(at 154.94 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de10e732-22a2-4b0f-9066-cff1a050ae4b")
-	)
 	(sheet
-		(at 123.19 74.93)
-		(size 20.32 5.08)
+		(at 123.19 77.47)
+		(size 20.32 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -98,9 +287,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "2f1d21b0-0e1a-467e-9170-4eaa50b64fc6")
+		(uuid "0b68834f-18f6-46b9-8364-3cb94ba93072")
 		(property "Sheetname" "Low Power Output 2"
-			(at 123.19 74.2184 0)
+			(at 123.19 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,7 +298,7 @@
 			)
 		)
 		(property "Sheetfile" "lpo.kicad_sch"
-			(at 123.19 80.5946 0)
+			(at 123.19 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118,8 +307,18 @@
 			)
 		)
 		(pin "OUT_LP" input
-			(at 143.51 77.47 0)
-			(uuid "5ded8d7b-79e2-425a-8287-d23a7d63f069")
+			(at 143.51 80.01 0)
+			(uuid "0dd97ed3-cce1-42ad-8aed-d2baa47d81bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TACH" output
+			(at 143.51 82.55 0)
+			(uuid "9860ac23-25f0-4b75-99fb-d34402c7419e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,8 +335,8 @@
 		)
 	)
 	(sheet
-		(at 123.19 85.09)
-		(size 20.32 5.08)
+		(at 123.19 119.38)
+		(size 20.32 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -150,9 +349,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "919e910d-a42d-4411-ad7a-daa09fd91ea9")
-		(property "Sheetname" "Low Power Output 3"
-			(at 123.19 84.3784 0)
+		(uuid "3fb690a2-502d-4564-a580-9b006f6c42b6")
+		(property "Sheetname" "Low Power Output 5"
+			(at 123.19 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +360,7 @@
 			)
 		)
 		(property "Sheetfile" "lpo.kicad_sch"
-			(at 123.19 90.7546 0)
+			(at 123.19 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,8 +369,142 @@
 			)
 		)
 		(pin "OUT_LP" input
-			(at 143.51 87.63 0)
-			(uuid "98c2f2d2-359c-40b3-b785-87db9c0be0d7")
+			(at 143.51 121.92 0)
+			(uuid "ac5dfa11-c3b7-42c6-9768-ff7c7c17c91c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TACH" output
+			(at 143.51 124.46 0)
+			(uuid "3737897a-ca72-4357-9529-1e781ae294b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 133.35)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "60008392-4d8a-432e-b115-cef37630b345")
+		(property "Sheetname" "Low Power Output 6"
+			(at 123.19 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lpo.kicad_sch"
+			(at 123.19 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT_LP" input
+			(at 143.51 135.89 0)
+			(uuid "4b82c72c-f560-409a-980a-db553a96f637")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TACH" output
+			(at 143.51 138.43 0)
+			(uuid "d24e4092-9b59-42f9-a131-7daa5ef10a4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 91.44)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7de097dc-b381-4ce2-a754-9c8dc9e01485")
+		(property "Sheetname" "Low Power Output 3"
+			(at 123.19 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lpo.kicad_sch"
+			(at 123.19 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT_LP" input
+			(at 143.51 93.98 0)
+			(uuid "443e4fc4-2f85-491c-8ef4-2fa7f0b1b3aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TACH" output
+			(at 143.51 96.52 0)
+			(uuid "312b66ff-b28c-4060-afb9-c19f4ce92c2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -188,8 +521,70 @@
 		)
 	)
 	(sheet
+		(at 123.19 105.41)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0bf01b9-f167-4050-b035-e15d601893e2")
+		(property "Sheetname" "Low Power Output 4"
+			(at 123.19 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lpo.kicad_sch"
+			(at 123.19 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT_LP" input
+			(at 143.51 107.95 0)
+			(uuid "22c8c741-1d4f-4f01-a959-68c170bfbe6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TACH" output
+			(at 143.51 110.49 0)
+			(uuid "31369af4-3513-4bde-990c-0283ed0f0950")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Serie"
+				(path "/8fdbc9dc-a02a-488d-a5a6-6a3827681e3b/746d5c0a-0cd4-436a-8816-21d7d00bdf87/46d57e35-aa6e-4a67-a990-a23de73e2f99"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 123.19 64.77)
-		(size 20.32 5.08)
+		(size 20.32 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -213,7 +608,7 @@
 			)
 		)
 		(property "Sheetfile" "lpo.kicad_sch"
-			(at 123.19 70.4346 0)
+			(at 123.19 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -224,6 +619,16 @@
 		(pin "OUT_LP" input
 			(at 143.51 67.31 0)
 			(uuid "322a39c3-5205-43cb-bf33-f8049a5aa729")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TACH" output
+			(at 143.51 69.85 0)
+			(uuid "c8dcfa17-0db4-44f9-85c8-3ff89e51d660")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -19,16 +19,16 @@
 # TODO new rule: non-plated slots: min diameter/width 1.0mm
 # JLCPCB: "The minimum Non-Plated Slot Width is 1.0mm, please draw the slot outline in the mechanical layer(GML or GKO)""
 
-(rule "Track width, outer layer (1oz copper)"
+(rule "Track width, outer layer (2oz copper)"
 	(layer outer)
 	(condition "A.Type == 'track'")
-	(constraint track_width (min 0.127mm))
+	(constraint track_width (min 0.16mm))
 )
 
-(rule "Track spacing, outer layer (1oz copper)"
+(rule "Track spacing, outer layer (2oz copper)"
 	(layer outer)
 	(condition "A.Type == 'track' && B.Type == A.Type")
-	(constraint clearance (min 0.127mm))
+	(constraint clearance (min 0.2mm))
 )
 
 (rule "Track width, inner layer"
@@ -92,7 +92,7 @@
 (rule "Annular ring width (via and PTH)"
 	(layer outer)
 	(condition "A.isPlated()")
-	(constraint annular_width (min 0.075mm))
+	(constraint annular_width (min 0.127mm))
 )
 
 (rule "Clearance: hole to hole (perimeter), different nets"
@@ -121,12 +121,16 @@
 # TODO: try combining with rule "Clearance: PTH to track, different nets"
 (rule "Clearance: track to pad"
 	(condition "A.Type == 'pad' && B.Type == 'track' &&  A.Net != B.Net")
-	(constraint clearance (min 0.2mm))
+	(constraint clearance (min 0.1mm))
 )
 
 (rule "Clearance: pad/via to pad/via"
 	(layer outer)
 #	(condition "(A.Type == 'Pad' || A.Type == 'Via') && (B.Type == 'Pad' || B.Type == 'Via') && A.Net != B.Net")	
 	(condition "A.isPlated() && B.isPlated() && A.Net != B.Net")
-	(constraint clearance (min 0.127mm))
+	(constraint clearance (min 0.15mm))
+)
+
+(rule "Board edge to hole clearance"
+  (constraint edge_clearance (min 1.0mm))
 )
